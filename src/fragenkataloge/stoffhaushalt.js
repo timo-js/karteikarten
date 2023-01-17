@@ -73,6 +73,77 @@ const stoffhaushalt = [
       },
     ],
   },
+  {
+    title: "Aufgabe 3",
+    questions: [
+      {
+        subtitle: `a) Nennen Sie 3 Indikatoren, die es dem Standortkartierer vor Ort ermöglichen, an einem
+        Bodenprofil die Magnesiumversorgung eines Waldbodens zu bewerten? Erläutern Sie jeweils
+        die Beziehung dieser Bodenmerkmale zur Magnesiumversorgung. [6 Punkte]`,
+        solution: `Indikator I • pH Wert
+        Begründung:
+        Ein niedriger pH-Wert führt zu verstärktem Auswaschen des Magnesiums und verhindert die
+        längerfristige Speicherung und damit Versorgung des verwurzelten Bodenbereiches.
+        Außerdem hat der pH-Wert einen direkten Einfluss auf die Pflanzenverfügbarkeit des
+        Magnesiums. (optimal im Silikatpufferbereich) schreib das in der Prüfung aus
+        Ein niedriger pH-Wert wirkt sich außerdem direkt auf das Vorhandensein von
+        Destruenten/Bodenwühlern aus. Ein niedriger pH-Wert bedeutet eine langsamere Zersetzung
+        des organischen Materials, was eine verzögerte Rückführung des Magnesiums in den
+        Stoffkreislauf zur Folge hat (wenig Destruenten->wenig Humus-> starke
+        Mikronährstoffauswaschung)
+        Indikator 2 • Tiefgründigkeit/Humusakkumulation/Vorhandensein von
+        Destruenten/Bodenwühlern
+        Begründung
+        Die Tiefgründigkeit eines Bodens, gewährleistet eine gute Durchwurzelungstiefe, was eine
+        große Aufnahmeoberfläche für die Wurzeln darstellt->sie können leichter Mg aufnehmen.
+        Außerdem wird damit einer zu schnellen Auswaschung des Magnesiums entgegengewirkt, da
+        größerer Puffereffekt durch tieferen Boden entsteht.(je tiefgründiger der Boden ist umso mehr
+        Feinboden steht zur Verfügung um Mg zu Lösen) Das verstärkte Auftreten von
+        Destruenten/Bodenwühlern gewährleistet eine gute Humusakkumulation, welche ebenfalls
+        der Auswaschung entgegenwirkt, das Magnesium des abgestorbenen organischen Materials
+        über die Streuzersetzung schnell Recycelt und so schnell wieder den Pflanzen verfügbar
+        macht.
+        Indikator 3 • Auftreten von magmatischen Gesteinen/Ausgangssubstrat/Depositionspotenzial
+        Begründung
+        Das Ausgangsgestein hat maßgeblich Einfluss darauf, wie der pH-Wert, sowie die
+        Tiefgründigkeit eines Bodens sich entwickelt. Magmatische Gesteine weißen häufig einen
+        erhöhten Magnesiumvorrat auf. Dabei gilt je dunkler das Magma-Gestein desto mehr
+        Magnesium(Gabbro>Granit). Bei Magnesium können Depositionen wie Meeresgischt oder
+        Zementstäube/Flugasche ebenfalls zu verstärktem Eintrag und somit zu einem guten Vorrat
+        von Mg führen.`,
+      },
+      {
+        subtitle: `b) Ist die Magnesiumdeposition über die Niederschläge eine wichtige Größe für die
+        Magnesiumversorgung der Wälder im Solling? Begründen sie Ihre Antwort? [2 Punkte]`,
+        solution: `Generell ist die Magnesiumdeposition an bestimmten Orten ein nicht zu vernachlässigbarer
+        Faktor für den Magnesiumvorrat in einem Wald (Flugasche, Zementstäube und Meeresgischt).
+        Für den Bereich Sollingen trifft dies auch zu, da an die 2 Kilo durch Feuchtdeposition pro
+        Hektar pro Jahr dem Kreislauf hinzugefügt wird. Die Trockendeposition (durch z.B.
+        Zementwerke macht auch ca. 2 Kilo der Eintrage aus.`,
+      },
+      {
+        subtitle: `c) Welcher Bodentyp hat sich jeweils aus den nachfolgend genannten geologischen
+        Ausgangssubstraten im Raum Göttingen unter Wald gebildet, welche Horizontabfolge ist
+        jeweils typisch für diese Bodentypen und wie bewerten Sie die Magnesiumversorgung dieser
+        Böden? Begründen sie jeweils ihre Bewertung. [6 Punkte]`,
+        solution: `Löss:
+        Bodentyp mit Horizonten•
+        Parabraunerde mit hohem Quarzanteil
+        Ah-Al-Bt-C
+        Magnesiumversorgung mit Begründung
+        Mäßige Versorgung von Magnesium, da eher saurer Boden Die Magnesiumversorgung ist
+        mäßig, da ein Großteil auf Feldspat besteht, aber wir bewegen uns im
+        Aluminiumpufferbereich, welcher zu sauer für mg ist und eher dafür sorgt, dass Mg
+        ausgewaschen als aufgenommen wird.
+        Oberer Bundsandstein (Röt):
+        Bodentyp mit Horizonten• Pelosol auf Röt
+        Ah-P-C
+        Magnesiumversorgung mit Begründung•
+        Eher positiv, da viele Vermiculite und Smectite. pH-Wert günstig da im Silikatpufferbereich.
+        Gute Humusform.`,
+      },
+    ],
+  },
 ];
 
 export default stoffhaushalt;
